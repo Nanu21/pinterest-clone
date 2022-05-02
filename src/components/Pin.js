@@ -5,7 +5,7 @@ function Pin({ urls }) {
     return (
         <Wrapper>
             <Container>
-                <img src={urls?.regular} />
+                <img src={urls?.regular} alt="" />
             </Container>
         </Wrapper>
     )

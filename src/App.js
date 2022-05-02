@@ -58,9 +58,8 @@ function App() {
   }
 
   useEffect(() => {
-
     getNewPins();
-  }, [])
+  })
 
   return (
     <div className="app">
